@@ -1,6 +1,6 @@
 <?php
-
-define('DB_HOST', 'localhost');
+# I left this on purpose, because it is local. You shouldn't push your any sensitive info (in my case DB conn info), use .env :)
+define('DB_HOST', 'localhost'); 
 define('DB_USER', 'root');
 define('DB_PASS', '');
 define('DB_NAME', 'thesismatch');
