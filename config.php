@@ -1,5 +1,6 @@
 <?php
-# __DB_USER__ in __DB_PASS__ ob namestitvi zamenja provisioning skripta (gesla niso v gitu)define('DB_HOST', 'localhost'); 
+# __DB_USER__ in __DB_PASS__ ob namestitvi zamenja provisioning skripta (gesla niso v gitu)
+define('DB_HOST', 'localhost'); 
 define('DB_USER', '__DB_USER__');
 define('DB_PASS', '__DB_PASS__');
 define('DB_NAME', 'thesismatch');
