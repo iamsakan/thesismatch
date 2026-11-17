@@ -1,6 +1,5 @@
 <?php
-# I left this on purpose, because it is local. You shouldn't push your any sensitive info (in my case DB conn info), use .env :)
-define('DB_HOST', 'localhost'); 
+# __DB_USER__ in __DB_PASS__ ob namestitvi zamenja provisioning skripta (gesla niso v gitu)define('DB_HOST', 'localhost'); 
 define('DB_USER', '__DB_USER__');
 define('DB_PASS', '__DB_PASS__');
 define('DB_NAME', 'thesismatch');
