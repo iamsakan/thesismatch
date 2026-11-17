@@ -1,8 +1,8 @@
 <?php
 # I left this on purpose, because it is local. You shouldn't push your any sensitive info (in my case DB conn info), use .env :)
 define('DB_HOST', 'localhost'); 
-define('DB_USER', 'root');
-define('DB_PASS', '');
+define('DB_USER', '__DB_USER__');
+define('DB_PASS', '__DB_PASS__');
 define('DB_NAME', 'thesismatch');
 
 try {
